@@ -1,0 +1,109 @@
+.foto {
+    padding: 50px;
+    width:250px;
+    height:250px;
+    border-radius:250px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+}
+.left{
+    background-color: rgb(97, 116, 128);
+    color: rgb(47, 47, 47);
+    margin: 0;
+}
+.container-redes {
+    display: grid;
+    align-items:initial;
+    justify-content:first baseline;
+}
+.container-redes ul li {
+    display:block;
+    color: white;
+    margin: 10px;
+    height: 30px;
+    font-size: 18px;
+}
+.container-redes ul li a {
+    display: flexbox;
+    padding: 10px;
+    color: white;
+    transition: 0.2s;
+}
+.intereses{
+    display: grid;
+    align-items:initial;
+
+}
+.intereses ul li{
+    display:block;
+    color: white;
+    margin: 10px;
+    height: 30px;
+    font-size: 18px; 
+}
+.idiomas{
+    display: grid;
+    align-items:initial;
+}
+.idiomas ul li{
+    display:block;
+    color: white;
+    margin: 10px;
+    height: 30px;
+    font-size: 18px; 
+}
+
+hr{
+    height: 1px;
+    width: 50%;
+    margin-right: 25%;
+    background-color: white;
+}
+.right{
+    display: flexbox;
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(97, 116, 128);
+    background-color: rgb(249, 255, 238);
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    color: black;
+    font-size: 40px;
+}
+.about{
+    display: grid;
+    align-items:initial;
+    color: rgb(97, 116, 128);
+}
+.about p{
+    color: rgb(57, 57, 57);
+}
+.educacion{
+    display: grid;
+    align-items:initial;
+    color:  rgb(97, 116, 128);
+}
+.educacion li{
+    color: rgb(57, 57, 57);
+}
+.habilidades{
+    display: grid;
+    align-items:initial;
+    color:  rgb(97, 116, 128);
+}
+.habilidades li{
+    color: rgb(57, 57, 57);
+}
+.conocimientos{
+    display: grid;
+    align-items:initial;
+    color:  rgb(97, 116, 128);
+}
+.conocimientos li{
+    color: rgb(57, 57, 57);
+}
